@@ -1,0 +1,28 @@
+Source: liballknowingdns-perl
+Section: perl
+Priority: optional
+Maintainer: Michael Stapelberg <michael@stapelberg.de>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: libmouse-perl,
+ libmousex-nativetraits-perl,
+ libnet-dns-perl,
+ libnetaddr-ip-perl,
+ libprivileges-drop-perl,
+ perl,
+ perl-modules (>= 6.42)
+Standards-Version: 3.9.2
+Homepage: http://search.cpan.org/dist/AllKnowingDNS/
+
+Package: liballknowingdns-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ libmouse-perl,
+ libmousex-nativetraits-perl,
+ libnet-dns-perl,
+ libnetaddr-ip-perl,
+ libprivileges-drop-perl,
+ perl
+Description: Tiny DNS server for IPv6 Reverse DNS
+ (no description was found)
+ .
+ This description was automagically extracted from the module by dh-make-perl.
