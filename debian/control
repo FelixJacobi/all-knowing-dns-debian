@@ -1,4 +1,4 @@
-Source: liballknowingdns-perl
+Source: all-knowing-dns
 Section: perl
 Priority: optional
 Maintainer: Michael Stapelberg <michael@stapelberg.de>
@@ -8,12 +8,11 @@ Build-Depends-Indep: libmouse-perl,
  libnet-dns-perl,
  libnetaddr-ip-perl,
  libprivileges-drop-perl,
- perl,
- perl-modules (>= 6.42)
+ perl
 Standards-Version: 3.9.2
 Homepage: http://search.cpan.org/dist/AllKnowingDNS/
 
-Package: liballknowingdns-perl
+Package: all-knowing-dns
 Architecture: all
 Depends: ${misc:Depends}, ${perl:Depends},
  libmouse-perl,
@@ -23,6 +22,16 @@ Depends: ${misc:Depends}, ${perl:Depends},
  libprivileges-drop-perl,
  perl
 Description: Tiny DNS server for IPv6 Reverse DNS
- (no description was found)
+ AllKnowingDNS provides reverse DNS for IPv6 networks which use SLAAC
+ (autoconf), e.g. for a /64 network.
  .
- This description was automagically extracted from the module by dh-make-perl.
+ The problem with IPv6 reverse DNS and traditional nameservers is that the
+ nameserver requires you to provide a zone file. Assuming you want to provide
+ RDNS for a /64 network, you have 2**64 = 18446744073709551616 different usable
+ IP addresses (a little less if you are using SLAAC). Providing a zone file for
+ that, even in a very terse notation, would consume a huge amount of disk space
+ and could not possibly be held in the memory of the computers we have nowadays.
+ .
+ AllKnowingDNS instead generates PTR and AAAA records on the fly. You only
+ configure which network you want to serve and what your entries should look
+ like.
