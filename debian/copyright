@@ -1,7 +1,7 @@
-Format-Specification: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?view=markup&pathrev=135
-Maintainer: Michael Stapelberg, C<< <michael at stapelberg.de> >>
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Contact: Michael Stapelberg, C<< <michael at stapelberg.de> >>
 Source: http://search.cpan.org/dist/AllKnowingDNS/
-Name: AllKnowingDNS
+Upstream-Name: AllKnowingDNS
 
 Files: *
 Copyright: 2012 Michael Stapelberg, C<< <michael at stapelberg.de> >>
