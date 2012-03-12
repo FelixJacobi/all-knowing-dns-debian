@@ -30,7 +30,8 @@ Description: Tiny DNS server for IPv6 Reverse DNS
  RDNS for a /64 network, you have 2**64 = 18446744073709551616 different usable
  IP addresses (a little less if you are using SLAAC). Providing a zone file for
  that, even in a very terse notation, would consume a huge amount of disk space
- and could not possibly be held in the memory of the computers we have nowadays.
+ and could not possibly be held in the memory of the computers available
+ nowadays.
  .
  AllKnowingDNS instead generates PTR and AAAA records on the fly. You only
  configure which network you want to serve and what your entries should look
