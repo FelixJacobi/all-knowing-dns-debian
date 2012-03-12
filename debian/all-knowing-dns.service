@@ -1,0 +1,9 @@
+[Unit]
+Description=Tiny DNS server for IPv6 Reverse DNS
+After=network.target syslog.target
+
+[Service]
+ExecStart=/usr/bin/all-knowing-dns
+
+[Install]
+WantedBy=multi-user.target
