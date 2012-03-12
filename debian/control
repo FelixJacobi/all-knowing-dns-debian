@@ -21,7 +21,7 @@ Depends: ${misc:Depends}, ${perl:Depends},
  libnetaddr-ip-perl,
  libprivileges-drop-perl,
  perl
-Description: Tiny DNS server for IPv6 Reverse DNS
+Description: tiny DNS server for IPv6 Reverse DNS
  AllKnowingDNS provides reverse DNS for IPv6 networks which use SLAAC
  (autoconf), e.g. for a /64 network.
  .
