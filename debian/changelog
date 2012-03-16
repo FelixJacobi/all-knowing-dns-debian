@@ -1,4 +1,16 @@
-all-knowing-dns (1.2-1) unstable; urgency=low
+all-knowing-dns (1.2-1) UNRELEASED; urgency=low
+
+  TODO:
+  - d/rules: the override_dh_install is not very pretty, the typical way to
+    install the file would be to create a debian/all-knowing-dns.install file
+    (handled by dh_install)
+  - d/copyright: please remove the POD formatting fragments ('C<<' and '>>')
+  - d/copyright: copyright years for M::I seem to end in 2011, not 2012
+    (not the newest version of M::I that the copyright.html page refers to)
+  - d/all-knowing-dns.init: trying to source the not-existing default file
+    seems unnecessary
+  - does installing all-knowing-dns.conf to /etc make sense? this
+    RaumZeitLabor looks very specific. maybe as an example?
 
   * Initial Release (Closes: #663508).
 
