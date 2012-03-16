@@ -1,9 +1,4 @@
 #!/usr/bin/make -f
 
-override_dh_install:
-	dh_install
-	mkdir -p debian/all-knowing-dns/lib/systemd/system
-	cp debian/all-knowing-dns.service debian/all-knowing-dns/lib/systemd/system/
-
 %:
 	dh $@
