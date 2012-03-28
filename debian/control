@@ -1,7 +1,7 @@
 Source: all-knowing-dns
 Section: perl
 Priority: optional
-Maintainer: Michael Stapelberg <michael@stapelberg.de>
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
 Build-Depends: debhelper (>= 8)
 Build-Depends-Indep: libmouse-perl,
  libmousex-nativetraits-perl,
