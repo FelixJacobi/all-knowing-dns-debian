@@ -12,6 +12,8 @@ Build-Depends-Indep: libmouse-perl,
  perl
 Standards-Version: 3.9.3
 Homepage: http://search.cpan.org/dist/AllKnowingDNS/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/all-knowing-dns.git
+Vcs-Git: git://git.debian.org/pkg-perl/packages/all-knowing-dns.git
 
 Package: all-knowing-dns
 Architecture: all
