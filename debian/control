@@ -1,29 +1,29 @@
 Source: all-knowing-dns
-Section: perl
-Priority: optional
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Michael Stapelberg <stapelberg@debian.org>
+Section: perl
+Priority: optional
 Build-Depends: debhelper (>= 8)
 Build-Depends-Indep: libmouse-perl,
- libmousex-nativetraits-perl,
- libnet-dns-perl,
- libnetaddr-ip-perl,
- libprivileges-drop-perl,
- perl
+                     libmousex-nativetraits-perl,
+                     libnet-dns-perl,
+                     libnetaddr-ip-perl,
+                     libprivileges-drop-perl,
+                     perl
 Standards-Version: 3.9.3
-Homepage: http://search.cpan.org/dist/AllKnowingDNS/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/all-knowing-dns.git
 Vcs-Git: git://git.debian.org/pkg-perl/packages/all-knowing-dns.git
+Homepage: http://search.cpan.org/dist/AllKnowingDNS/
 
 Package: all-knowing-dns
 Architecture: all
-Depends: ${misc:Depends}, ${perl:Depends},
- libmouse-perl,
- libmousex-nativetraits-perl,
- libnet-dns-perl,
- libnetaddr-ip-perl,
- libprivileges-drop-perl,
- perl
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libmouse-perl,
+         libmousex-nativetraits-perl,
+         libnet-dns-perl,
+         libnetaddr-ip-perl,
+         libprivileges-drop-perl
 Description: tiny DNS server for IPv6 Reverse DNS
  AllKnowingDNS provides reverse DNS for IPv6 networks which use SLAAC
  (autoconf), e.g. for a /64 network.
@@ -39,3 +39,4 @@ Description: tiny DNS server for IPv6 Reverse DNS
  AllKnowingDNS instead generates PTR and AAAA records on the fly. You only
  configure which network you want to serve and what your entries should look
  like.
+
