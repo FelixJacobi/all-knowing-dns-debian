@@ -1,4 +1,4 @@
-all-knowing-dns (1.3-2) UNRELEASED; urgency=low
+all-knowing-dns (1.4-2) unstable; urgency=low
 
   [ Salvatore Bonaccorso ]
   * Set Maintainer to Debian Perl Group.
@@ -14,7 +14,15 @@ all-knowing-dns (1.3-2) UNRELEASED; urgency=low
   * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
   * Change search.cpan.org based URIs to metacpan.org based URIs
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 04 Jul 2012 20:01:43 +0200
+ -- Michael Stapelberg <stapelberg@debian.org>  Wed, 26 Jun 2013 18:56:55 +0200
+
+all-knowing-dns (1.4-1) unstable; urgency=low
+
+  * New upstream release
+  * Use dh-systemd
+  * Bump Standards-Version to 3.9.4 (no changes necessary)
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Sun, 23 Jun 2013 15:03:03 +0200
 
 all-knowing-dns (1.3-1) unstable; urgency=low
 
