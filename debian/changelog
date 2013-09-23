@@ -1,3 +1,9 @@
+all-knowing-dns (1.7-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Mon, 23 Sep 2013 22:27:47 +0200
+
 all-knowing-dns (1.4-2) unstable; urgency=low
 
   [ Salvatore Bonaccorso ]
