@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Contact: Michael Stapelberg, <michael at stapelberg.de>
-Source: https://metacpan.org/release/AllKnowingDNS/
+Source: https://metacpan.org/release/AllKnowingDNS
 Upstream-Name: AllKnowingDNS
 
 Files: *
