@@ -10,6 +10,9 @@ all-knowing-dns (1.7-2) UNRELEASED; urgency=medium
   [ gregor herrmann ]
   * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
 
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
  -- gregor herrmann <gregoa@debian.org>  Thu, 27 Feb 2014 22:32:02 +0100
 
 all-knowing-dns (1.7-1) unstable; urgency=low
