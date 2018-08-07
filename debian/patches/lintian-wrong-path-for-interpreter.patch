@@ -1,0 +1,12 @@
+Description: fix error raised by lintian regarding path for interpreter
+Forwarded: not-needed
+Author: Laurent Baillet <laurent.baillet@gmail.com>
+
+--- a/script/all-knowing-dns
++++ b/script/all-knowing-dns
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env perl
++#!/usr/bin/perl
+ # vim:ts=4:sw=4:expandtab
+ 
+ use strict;
