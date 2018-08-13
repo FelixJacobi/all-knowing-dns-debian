@@ -1,8 +1,5 @@
 all-knowing-dns (1.7-2) UNRELEASED; urgency=medium
 
-  [ Laurent Baillet ]
-  * fix lintian wrong-path-for-interpreter error
-
   [ gregor herrmann ]
   * Strip trailing slash from metacpan URLs.
 
