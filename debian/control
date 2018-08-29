@@ -39,4 +39,3 @@ Description: tiny DNS server for IPv6 Reverse DNS
  AllKnowingDNS instead generates PTR and AAAA records on the fly. You only
  configure which network you want to serve and what your entries should look
  like.
-

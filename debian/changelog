@@ -1,8 +1,5 @@
 all-knowing-dns (1.7-2) UNRELEASED; urgency=medium
 
-  [ Laurent Baillet ]
-  * fix lintian wrong-path-for-interpreter error
-
   [ gregor herrmann ]
   * Strip trailing slash from metacpan URLs.
 
@@ -15,6 +12,10 @@ all-knowing-dns (1.7-2) UNRELEASED; urgency=medium
 
   [ Salvatore Bonaccorso ]
   * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ Laurent Baillet ]
+  * fix lintian wrong-path-for-interpreter error
+  * fix lintian file-contains-trailing-whitespace warning
 
  -- gregor herrmann <gregoa@debian.org>  Thu, 27 Feb 2014 22:32:02 +0100
 
