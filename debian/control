@@ -4,8 +4,7 @@ Uploaders: Michael Stapelberg <stapelberg@debian.org>
 Section: perl
 Testsuite: autopkgtest-pkg-perl
 Priority: optional
-Build-Depends: debhelper (>= 10),
-               dh-systemd
+Build-Depends: debhelper (>= 10)
 Build-Depends-Indep: libmouse-perl,
                      libmousex-nativetraits-perl,
                      libnet-dns-perl,
