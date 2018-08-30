@@ -1,4 +1,6 @@
-all-knowing-dns (1.7-2) UNRELEASED; urgency=medium
+all-knowing-dns (1.7-2) unstable; urgency=medium
+
+  * Team upload
 
   [ gregor herrmann ]
   * Strip trailing slash from metacpan URLs.
@@ -17,7 +19,16 @@ all-knowing-dns (1.7-2) UNRELEASED; urgency=medium
   * fix lintian wrong-path-for-interpreter error
   * fix lintian file-contains-trailing-whitespace warning
 
- -- gregor herrmann <gregoa@debian.org>  Thu, 27 Feb 2014 22:32:02 +0100
+  [ Xavier Guimard ]
+  * Add upstream/metadata
+  * Declare compliance with policy 4.2.1
+  * Enable autopkgtest
+  * Update debian/copyright
+  * Bump debhelper compat to 10
+  * Remove dh-systemd from build dependencies
+  * Add "documentation" entry in .service file
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 30 Aug 2018 10:43:47 +0200
 
 all-knowing-dns (1.7-1) unstable; urgency=low
 
