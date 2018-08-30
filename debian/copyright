@@ -4,8 +4,8 @@ Source: https://metacpan.org/release/AllKnowingDNS
 Upstream-Name: AllKnowingDNS
 
 Files: *
-Copyright: 2012 Michael Stapelberg, <michael at stapelberg.de>
-License: BSD
+Copyright: 2012 Michael Stapelberg, <michael@stapelberg.de>
+License: BSD-3-Clause
 
 Files: inc/Module/*
 Copyright: 2002-2011, Adam Kennedy <adamk@cpan.org>
@@ -15,12 +15,9 @@ License: Artistic or GPL-1+
 
 Files: debian/*
 Copyright: 2012, Michael Stapelberg <stapelberg@debian.org>
-License: BSD or Artistic or GPL-1+
+License: BSD-3-Clause or Artistic or GPL-1+
 
-License: BSD
- Copyright © 2012, Michael Stapelberg and contributors
- All rights reserved.
- .
+License: BSD-3-Clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
  .
