@@ -1,3 +1,9 @@
+all-knowing-dns (1.7.1~stsbl+1-1) experimental; urgency=medium
+
+  * New upstream version 1.7.1~stsbl+1
+
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Mon, 14 Oct 2019 00:49:00 +0200
+
 all-knowing-dns (1.7-2) unstable; urgency=medium
 
   * Team upload
